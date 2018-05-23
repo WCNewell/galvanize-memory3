@@ -1,10 +1,10 @@
 module.exports = {
   development: {
-    client: "pg",
-    connection: "postgres:///galvanize-memory3"
+    client: 'pg',
+    connection: 'postgres:///galvanize-memory3'
   },
   production: {
-    client: "pg",
+    client: 'pg',
     connection: process.env.DATABASE_URL
   }
 }
